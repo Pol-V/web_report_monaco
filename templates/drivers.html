@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1> Report of Monaco race 2018 </h1>
+<ul>
+{% for driver_id in name_code %}
+  <li><a href="{{ driver_id }}"> {{ name_code[driver_id] }} {{ driver_id }}  </li>
+{% endfor %}
+</ul>
+{% endblock %}

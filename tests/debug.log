@@ -1,0 +1,741 @@
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 75, in get
+    return jsonify(total_drivers_data())
+  File "/Users/v/PycharmProjects/foxminded_task_8/config.py", line 98, in total_drivers_data
+    build_report(START, END, ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 81, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 75, in get
+    return jsonify(total_drivers_data())
+  File "/Users/v/PycharmProjects/foxminded_task_8/config.py", line 98, in total_drivers_data
+    build_report(START, END, ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 81, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 75, in get
+    return jsonify(total_drivers_data())
+  File "/Users/v/PycharmProjects/foxminded_task_8/config.py", line 98, in total_drivers_data
+    build_report(START, END, ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 81, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 75, in get
+    return jsonify(total_drivers_data())
+  File "/Users/v/PycharmProjects/foxminded_task_8/config.py", line 98, in total_drivers_data
+    build_report(START, END, ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 81, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 75, in get
+    return jsonify(total_drivers_data())
+  File "/Users/v/PycharmProjects/foxminded_task_8/config.py", line 98, in total_drivers_data
+    build_report(START, END, ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 81, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 75, in get
+    return jsonify(total_drivers_data())
+  File "/Users/v/PycharmProjects/foxminded_task_8/config.py", line 98, in total_drivers_data
+    build_report(START, END, ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 81, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 72, in get
+    return jsonify(total_drivers_data())
+  File "/Users/v/PycharmProjects/foxminded_task_8/config.py", line 98, in total_drivers_data
+    build_report(START, END, ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 81, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 72, in get
+    return jsonify(total_drivers_data())
+  File "/Users/v/PycharmProjects/foxminded_task_8/config.py", line 98, in total_drivers_data
+    build_report(START, END, ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 81, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 75, in get
+    return jsonify(total_drivers_data())
+  File "/Users/v/PycharmProjects/foxminded_task_8/config.py", line 98, in total_drivers_data
+    build_report(START, END, ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 81, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 75, in get
+    return jsonify(total_drivers_data())
+  File "/Users/v/PycharmProjects/foxminded_task_8/config.py", line 98, in total_drivers_data
+    build_report(START, END, ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 81, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 75, in get
+    return jsonify(total_drivers_data())
+  File "/Users/v/PycharmProjects/foxminded_task_8/config.py", line 98, in total_drivers_data
+    build_report(START, END, ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 81, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 75, in get
+    return total_drivers_data()
+  File "/Users/v/PycharmProjects/foxminded_task_8/config.py", line 98, in total_drivers_data
+    build_report(START, END, ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 81, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 88, in get
+    return jsonify(make_json(build_report(START,END,ABBREVIATIONS)))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 88, in get
+    return jsonify(make_json(build_report(START,END,ABBREVIATIONS)))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 90, in get
+    return make_xml(build_report(START,END,ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 88, in get
+    return jsonify(make_json(build_report(START,END,ABBREVIATIONS)))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 90, in get
+    return make_xml(build_report(START,END,ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 88, in get
+    return jsonify(make_json(build_report(START,END,ABBREVIATIONS)))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 90, in get
+    return make_xml(build_report(START,END,ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 88, in get
+    return jsonify(make_json(build_report(START,END,ABBREVIATIONS)))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 90, in get
+    return make_xml(build_report(START,END,ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 88, in get
+    return jsonify(make_json(build_report(START,END,ABBREVIATIONS)))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 90, in get
+    return make_xml(build_report(START,END,ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 88, in get
+    return jsonify(make_json(build_report(START,END,ABBREVIATIONS)))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 90, in get
+    return make_xml(build_report(START,END,ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 88, in get
+    return jsonify(make_json(build_report(START,END,ABBREVIATIONS)))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 90, in get
+    return make_xml(build_report(START,END,ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 88, in get
+    return jsonify(make_json(build_report(START,END,ABBREVIATIONS)))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 90, in get
+    return make_xml(build_report(START,END,ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 88, in get
+    return jsonify(make_json(build_report(START,END,ABBREVIATIONS)))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 90, in get
+    return make_xml(build_report(START,END,ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 88, in get
+    return jsonify(make_json(build_report(START,END,ABBREVIATIONS)))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 90, in get
+    return make_xml(build_report(START,END,ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 88, in get
+    return jsonify(make_json(build_report(START,END,ABBREVIATIONS)))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 90, in get
+    return make_xml(build_report(START,END,ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 88, in get
+    return jsonify(make_json(build_report(START,END,ABBREVIATIONS)))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 90, in get
+    return make_xml(build_report(START,END,ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 77, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 77, in get
+    return jsonify(make_json(build_report(START,END,ABBREVIATIONS)))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 65, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'
+Exception on /api/v1/report/ [GET]
+Traceback (most recent call last):
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask/views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/v/PycharmProjects/flask_report/venv/lib/python3.10/site-packages/flasgger/utils.py", line 273, in wrapper
+    return function(*args, **kwargs)
+  File "/Users/v/PycharmProjects/foxminded_task_8/report.py", line 79, in get
+    return make_xml(build_report(START,END,ABBREVIATIONS))
+  File "/Users/v/PycharmProjects/foxminded_task_8/work_func.py", line 65, in build_report
+    with open(start_of_race, "r") as start_of_race_file, open(end_of_race, "r") as end_of_race_file, open (data_about_drivers, "r") as data_about_drivers:
+FileNotFoundError: [Errno 2] No such file or directory: 'drivers_data/start.log'

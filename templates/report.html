@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1> Report of Monaco race 2018 </h1>
+<ul>
+
+{% for string in ordered_list_of_drivers %}
+  <li>{{ string }} </li>
+{% endfor %}
+</ul>
+{% endblock %}

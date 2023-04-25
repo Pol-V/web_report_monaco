@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1> Report of Monaco race 2018 </h1>
+
+<p>Hello, it's web-report with results of race in Monaco 2018. </p>
+ <a href="{{url_for('report')}}"> /report </a>  shows common statistics <br>
+<br><a href="{{url_for('all_drivers')}}"> /report/drivers </a>  shows a list of driver's names and codes.
+   <p> The code is a link to info about drivers</p>
+<a href="{{url_for('driver_data', code='SVF')}}"> report/drivers?id=SVF or /report/SVF </a> shows info about a driver
+
+<br>
+    <p>Also, each route  gets the order parameter</p>
+<a href="{{url_for('report', order='desc')}}"> /report?order=desc</a> or <a href="{{url_for('report', order='desc')}}"> /report?order=asc</a>
+<br>
+{% endblock %}

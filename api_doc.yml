@@ -1,0 +1,22 @@
+summary: "Get report"
+description: "This is a simple API to return data about racers in json or xml"
+produces:
+- "application/json"
+- "application/xml"
+parameters:
+- in: "query"
+  name: "format"
+  type: "string"
+  required: "false"
+responses:
+  200:
+    description: "Success"
+    schema:
+      type: "object"
+      properties:
+        data:
+          type: "object"
+        status:
+          type: "string"
+        message:
+          type: "string"
